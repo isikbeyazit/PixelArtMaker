@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Monoton'>
+    <link rel='stylesheet' href='styles.css'>
+    <meta charset='UTF-8'>
+  <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323' rel='stylesheet'>
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id='sizePicker'>
+        Grid Height:
+        <input type='number' id='inputHeight' name='height' min='1' value='10'>
+        Grid Width:
+        <input type='number' id='inputWidth' name='width' min='1' value='10'>
+        <input class='button' type='submit'>
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type='color' id='colorPicker'>
+    <input class='button' type='submit'>
+
+    <div>
+    <button class='button extraButtons' id='reset'>Reset Grid</button>
+    <button class='button extraButtons' id='clear'>Clear Grid</button>
+    </div>
+
+
+
+    <h2>Design Canvas</h2>
+    <table id='pixelCanvas'>
+
+    </table>
+
+
+    <script
+  src='http://code.jquery.com/jquery-3.3.1.slim.js'
+  integrity='sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA='
+  crossorigin='anonymous'></script>
+    <script src='designs.js'></script>
+  <script defer src='https://use.fontawesome.com/releases/v5.0.6/js/all.js'></script>
+
+</body>
+</html>

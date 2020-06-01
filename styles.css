@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    background-image: url('http://www.wini.org.uk/wp-content/uploads/2018/08/3ef21f043b1df9f2b1bd9c738f91abb5.png');
+}
+
+h1 {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 90px;
+    margin: 0.2em;
+    color: 
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family: 'Comic Sans MS', regular;
+}
+
+h4 {
+    font-family: 'Comic Sans MS', regular;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+div {
+    padding-top: 15px;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+#sidenav {
+    position: fixed; /* Stay in place */
+  
+    top: 0; /* Stay at the top */
+    left: 0;
+
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    padding-left: 20px;
+    
+    
+}
+
+.button {
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  background-color: rgb(236, 71, 236);
+}
+
+.extraButtons {
+    padding-top: 
+}
